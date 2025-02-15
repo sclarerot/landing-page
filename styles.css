@@ -1,0 +1,33 @@
+* {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex: 1 1 0;
+    background-color:blueviolet;
+    margin: -3%;
+    padding: 1%;
+    
+}
+
+.logo {
+    display: flex;
+    flex: 1 1 0;
+    color:maroon;
+    margin-right: auto;
+    background-color: blueviolet;
+}
+
+h4, .violet {
+    background-color: blueviolet;
+}
+
+.header-text {
+    display: flex;
+    justify-content: space-between;
+    flex: 1 1 0;
+}
