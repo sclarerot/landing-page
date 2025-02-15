@@ -11,7 +11,6 @@
     background-color:blueviolet;
     margin: -3%;
     padding: 1%;
-    
 }
 
 .logo {
@@ -30,4 +29,35 @@ h4, .violet {
     display: flex;
     justify-content: space-between;
     flex: 1 1 0;
+}
+
+img {
+    margin: 2%;
+    padding: 2px;
+    background-color:blueviolet;
+}
+
+.paragraph {
+    background-color: blueviolet;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+.flex-col > p {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    justify-content:flex-end;
+    background-color:blueviolet;
+    margin: 0;
+    text-align: right;
+}
+
+#big-text {
+    display: flex;
+    justify-content: center;
+    color:black;
+    outline: auto white;
+    background-color: white;
 }
