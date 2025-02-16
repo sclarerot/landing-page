@@ -78,3 +78,9 @@ img {
 .terms {
     margin-right: 20px;
 }
+
+.pics, .captions {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+}
