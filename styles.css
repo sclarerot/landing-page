@@ -17,8 +17,9 @@
     display: flex;
     flex: 1 1 0;
     color:maroon;
-    margin-right: auto;
+    margin: auto;
     background-color: blueviolet;
+    margin-left: 20px;
 }
 
 h4, .violet {
@@ -29,19 +30,23 @@ h4, .violet {
     display: flex;
     justify-content: space-between;
     flex: 1 1 0;
+    margin: auto;
 }
 
 img {
     margin: 2%;
-    padding: 2px;
+    padding: 0;
     background-color:blueviolet;
+    border: 2px solid white;
 }
 
-.paragraph {
+#paragraph {
     background-color: blueviolet;
     padding: 10px;
     display: block;
     text-align: center;
+    margin: 20px;
+    word-wrap: break-word;
 }
 
 .flex-col > p {
@@ -58,6 +63,18 @@ img {
     display: flex;
     justify-content: center;
     color:black;
-    outline: auto white;
     background-color: white;
+    width: 100px;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+#column {
+    display: flex;
+    flex-direction: column;
+    background-color:blueviolet;
+}
+
+.terms {
+    margin-right: 20px;
 }
