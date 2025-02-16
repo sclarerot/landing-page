@@ -84,3 +84,9 @@ img {
     flex: 1;
     justify-content: space-evenly;
 }
+
+#center-text {
+    text-align: center;
+    display: block;
+    margin: 12px;
+}
