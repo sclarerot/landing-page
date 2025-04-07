@@ -5,16 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
 </head>
 <body>
-    <div class="header flex content">
+
+    <div class="header content">
+    <div class="flex">
         <h3 class="header-logo">RaccoonLogo</h3>
         <div class="links">
-            <a class="link first" href="#">header link one</a>
-            <a class="link" href="#">header link two</a>
-            <a class="link last" href="#">header link two</a>
+            <a class="link first" href="#info">header link one</a>
+            <a class="link" href="#quote">header link two</a>
+            <a class="link last" href="#">header link three</a>
         </div>
     </div>
-    
+
+        <div class="flex">
+            <div class="flex-col wrap">
+                <h2 class="hero-text">This raccoon is awesome.</h2>
+                <p class="subtext">This raccoon has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+                <button class="button" id="btn">Sign Up</button>
+            </div>
+            <img class="hero-img" src="pexels-anneddesch-634255.jpg" id="hero-img" />
+        </div>
+    </div>
+
+    <div class="content flex-col" id="info">
+        <h1 class="info">The Raccoon Information</h1>
+        <div class="flex-images">
+            <img class="small-img" src="pexels-photo-5826506.jpeg" />
+            <img class="small-img" src="free-photo-of-close-up-of-standing-raccoon.jpeg"/>
+            <img class="small-img" src="free-photo-of-close-up-of-a-raccoon-sticking-out-its-tongue.jpeg"/>
+            <img class="small-img" src="free-photo-of-a-raccoon-is-laying-on-a-rock-with-its-eyes-closed.jpeg"/>
+        </div>
+        <div class="flex spaced sub-wrap">
+            <p class="img-subtext">this is some raccoon under an illustration or image</p>
+            <p class="img-subtext">this is some raccoon under an illustration or image</p>
+            <p class="img-subtext">this is some raccoon under an illustration or image</p>
+            <p class="img-subtext">this is some raccoon under an illustration or image</p>
+        </div>
+    </div>
+
+    <div class="quote-bg flex content" id="quote">
+        <h6 class="quote">
+            "Wklv lv dq lqvslulqj txrwh, ru d whvwlprqldo iurp d fxvwrphu. Pdbeh lw'v mxvw iloolqj xs vsdfh, ru pdbeh shrsoh zloo dfwxdoob uhdg lw. Zkr nqrzv? Doo L nqrz lv wkdw lw orrnv qlfh."
+        </h6>
+    </div>
+    <div class="quote-name quote-bg content">
+        <p>- A Raccoon.</p>
+    </div>
+
+    <div class="content action-section">
+        <div class="call-to-action content flex">
+            <div class="flex-col">
+                <h1 class="action-header">Call to action!</h1>
+                <h3 class="action-subheader">Sign up for our product by clicking that button right over there!</h3>
+            </div>
+            <button class="button action">Sign Up</button>
+        </div>
+    </div>
+    <footer class="footer">
+        <h2 class="footer-text">Copyright © The Odin Raccoon 2025</h2>
+    </footer>
 </body>
 </html>
